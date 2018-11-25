@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { TextInput, StyleSheet, View } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import WeatherIcon from 'react-icons-weather';
 
 
 export default class SeachInput extends Component {
@@ -24,7 +23,7 @@ export default class SeachInput extends Component {
 		return (
 			<View style={styles.searchBar}>
 			<View style={styles.headerContainer}>
-        <WeatherIcon name="owm" iconId="200" flip="horizontal" rotate="90" />
+        
       </View>
 				<TextInput
 					value={this.state.text}
